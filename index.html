@@ -9,19 +9,73 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
     integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
-    <link rel="stylesheet" href="./CSS/phone_style.css"/ media="screen and (max-width: 350px)">
+    <link rel="stylesheet" href="./CSS/phone_style.css">
+    <link rel="stylesheet" href="./CSS/variable.css">
     <title>Hello, world!</title>
   </head>
   <body>
-    <div class="phone-conatiner">
-      <header>
-        <div class = "menu-toggler">
-          <div class="bar half start"></div>
-          <div class="bar"></div>
-          <div class ="bar half end"></div>
+    <div class="phone_container px-2 w-100">
+      <header class="">
+        <div class="logo d-flex justify-content-between">
+          <div>
+            <img src="./assets/logo_phone.png" alt="logo" /> <span class="logo-text">APEX TA'LIM</span>
+          </div>
+          <div id="menu-container">
+            <i class="fas fa-bars fa-2x pt-2" id="menu-toggler"></i>
+          </div>
+        </div>
+        <div>
+          <nav class="float-left d-none" id='navbar'>
+            <ul>
+              <li><a href="#yangiliklar">Yangiliklar</a></li>
+              <li><a href="#kurslar">Kurslar</a></li>
+              <li><a href="#ustozlar">Ustozlar</a></li>
+              <li><a href="#fotolavhalar">Fotolavhalar</a></li>
+              <li><a href="#videolavhalar">Videolavhalar</a></li>
+              <li><a href="#natijalar">Natijalar</a></li>
+              <li><a href="#izohlar">Izohlar</a></li>
+              <li><a href="#aloqa">Aloqa</a></li>
+            </ul>
+          </nav>
         </div>
       </header>
+      <main>
+        <div class="cover-page text-center pt-5">
+          <h1 class="header-text">Talaba bo‘lishingizga albatta ishonamiz</h1>
+          <p class="fw-500">Shaxmatda yo‘lga chiqqan piyoda, bir kun kelib albatta vazir bo’ladi.</p>
+          <button class="text-uppercase button px-4 py-2">Kursga yozilish</button>
+        </div>
+        <div class="news pt-5 contents">
+          <h3 class="content-header">Yangiliklar</h3>
+          <div>
+            <figure>
+              <img src="./assets/yangiliklar1.jpg" alt="">
+            </figure>
+            <figcaption>
+              <h4>Mental arifmetikani oson o‘rganamiz</h4>
+              <p>22.09.2021</p>
+            </figcaption>
+          </div>
+          <div>
+            <figure>
+              <img src="./assets/yangiliklar2.jpg" alt="">
+            </figure>
+            <figcaption>
+              <h4></h4>
+            </figcaption>
+          </div>
+          <div>
+            <figure>
+              <img src="./assets/yangiliklar2.jpg" alt="">
+            </figure>
+            <figcaption>
+
+            </figcaption>
+          </div>
+        </div>
+      </main>
     </div>
+    <script src="./JS/script.js" type="text/javascript"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
   </body>
 </html>
