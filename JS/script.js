@@ -17,11 +17,15 @@ window.addEventListener('DOMContentLoaded', () => {
   const slidesFile_4 = document.querySelector('.carusel-inner-videolar');
   const slides_5 = document.querySelectorAll('.offer_slide-oquvchilar');
   const slidesFile_5 = document.querySelector('.carusel-inner-oquvchilar');
+  const slides_6 = document.querySelectorAll('.offer_slide-mijozlar');
+  const slidesFile_6 = document.querySelector('.carusel-inner-mijozlar');
+
   slidesFile.style.width = slides.length * 100 + '%';
   slidesFile_2.style.width = slides_2.length * 100 + '%';
   slidesFile_3.style.width = slides_3.length * 100 + '%';
   slidesFile_4.style.width = slides_4.length * 100 + '%';
   slidesFile_5.style.width = slides_5.length * 100 + '%';
+  slidesFile_6.style.width = slides_6.length * 100 + '%';
 })
 
 const setActiveButton = (button, str) => {
@@ -40,6 +44,7 @@ const slider_2 = document.querySelector('.carusel-inner-kurslar');
 const slider_3 = document.querySelector('.carusel-inner-ustozlar');
 const slider_4 = document.querySelector('.carusel-inner-videolar');
 const slider_5 = document.querySelector('.carusel-inner-oquvchilar');
+const slider_6 = document.querySelector('.carusel-inner-mijozlar');
 // const line1 = document.getElementById('line1');
 // const line2 = document.getElementById('line2');
 // const line3 = document.getElementById('line3');
@@ -104,6 +109,18 @@ document.addEventListener('click', (e) => {
     if (e.target.classList.contains('active')) return;
     setActiveButton(e.target, '.lines_5');
     slider_5.style.transform = 'translateX(-66.66%)';
+  } else if (e.target.classList.contains('line16')) {
+    if (e.target.classList.contains('active')) return;
+    setActiveButton(e.target, '.lines_6');
+    slider_6.style.transform = 'translateX(0)';
+  } else if (e.target.classList.contains('line17')) {
+    if (e.target.classList.contains('active')) return;
+    setActiveButton(e.target, '.lines_6');
+    slider_6.style.transform = 'translateX(-33.33%)';
+  } else if (e.target.classList.contains('line18')) {
+    if (e.target.classList.contains('active')) return;
+    setActiveButton(e.target, '.lines_6');
+    slider_6.style.transform = 'translateX(-66.66%)';
   }
 })
 

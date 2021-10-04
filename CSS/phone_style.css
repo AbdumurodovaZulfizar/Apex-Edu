@@ -39,7 +39,8 @@ body {
 
 .contents img,
 .kurslar-container img,
-.ustozlar-container img {
+.ustozlar-container img,
+.mijozlar-container figure img {
   width: 100%;
   margin: auto;
 }
@@ -58,7 +59,8 @@ figcaption p {
 .carusel-container-kurslar,
 .carusel-container-ustozlar,
 .carusel-container-videolar,
-.carusel-container-oquvchilar {
+.carusel-container-oquvchilar,
+.carusel-container-mijozlar {
   overflow: hidden;
 }
 
@@ -66,7 +68,8 @@ figcaption p {
 .carusel-inner-kurslar,
 .carusel-inner-ustozlar,
 .carusel-inner-videolar,
-.carusel-inner-oquvchilar {
+.carusel-inner-oquvchilar,
+.carusel-inner-mijozlar {
   display: inline-flex;
   transition: 0.5s ease;
 }
@@ -75,11 +78,13 @@ figcaption p {
   margin: 0;
 }
 
-.dars-rasmlari img {
+.dars-rasmlari img,
+.offer_slide-mijozlar figcaption {
   width: 100%;
 }
 
-.offer_slide-ustozlar figcaption {
+.offer_slide-ustozlar figcaption,
+.offer_slide-mijozlar figcaption {
   padding: 15px 7px 10px 7px;
   background-color: #ECFEFA;
 }
@@ -103,7 +108,8 @@ figcaption p {
 .offer_slide-kurslar,
 .offer_slide-ustozlar,
 .offer_slide-videolar,
-.offer_slide-oquvchilar {
+.offer_slide-oquvchilar,
+.offer_slide-mijozlar {
   width: 100%;
 }
 
@@ -111,7 +117,8 @@ figcaption p {
 .lines_2,
 .lines_3,
 .lines_4,
-.lines_5 {
+.lines_5,
+.lines_6 {
   width: 20px;
   height: 3px;
   cursor: pointer;
@@ -130,3 +137,21 @@ figcaption p {
   width: 100%;
 }
 
+.aloqa-container iframe{
+  width: 100%;
+}
+
+.aloqa-container i {
+  color: var(--dark_blue);
+  font-size: 24px;
+}
+
+.aloqa-container p {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2%;
+}
+
+.social {
+  font-size: 8px;
+}
