@@ -38,7 +38,8 @@ body {
 }
 
 .contents img,
-.kurslar-container img {
+.kurslar-container img,
+.ustozlar-container img {
   width: 100%;
   margin: auto;
 }
@@ -54,12 +55,16 @@ figcaption p {
 }
 
 .carusel-container,
-.carusel-container-kurslar {
+.carusel-container-kurslar,
+.carusel-container-ustozlar,
+.carusel-container-videolar {
   overflow: hidden;
 }
 
 .carusel-inner,
-.carusel-inner-kurslar {
+.carusel-inner-kurslar,
+.carusel-inner-ustozlar,
+.carusel-inner-videolar {
   display: inline-flex;
   transition: 0.5s ease;
 }
@@ -68,18 +73,30 @@ figcaption p {
   margin: 0;
 }
 
+.dars-rasmlari img {
+  width: 100%;
+}
+
+.offer_slide-ustozlar figcaption {
+  padding: 15px 7px 10px 7px;
+  background-color: var(--white);
+}
+
 .offer_slide-kurslar figcaption {
   padding: 15px 7px 0 7px;
   background-color: var(--white);
 }
 
 .offer_slide,
-.offer_slide-kurslar {
+.offer_slide-kurslar,
+.offer_slide-ustozlar,
+.offer_slide-videolar {
   width: 100%;
 }
 
 .lines,
-.lines_2 {
+.lines_2,
+.lines_3 {
   width: 20px;
   height: 3px;
   cursor: pointer;
@@ -92,5 +109,9 @@ figcaption p {
 .active {
   height: 4px;
   width: 22px;
+}
+
+.offer_slide-videolar iframe{
+  width: 100%;
 }
 
