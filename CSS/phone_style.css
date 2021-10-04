@@ -57,14 +57,16 @@ figcaption p {
 .carusel-container,
 .carusel-container-kurslar,
 .carusel-container-ustozlar,
-.carusel-container-videolar {
+.carusel-container-videolar,
+.carusel-container-oquvchilar {
   overflow: hidden;
 }
 
 .carusel-inner,
 .carusel-inner-kurslar,
 .carusel-inner-ustozlar,
-.carusel-inner-videolar {
+.carusel-inner-videolar,
+.carusel-inner-oquvchilar {
   display: inline-flex;
   transition: 0.5s ease;
 }
@@ -79,24 +81,37 @@ figcaption p {
 
 .offer_slide-ustozlar figcaption {
   padding: 15px 7px 10px 7px;
-  background-color: var(--white);
+  background-color: #ECFEFA;
 }
 
 .offer_slide-kurslar figcaption {
   padding: 15px 7px 0 7px;
-  background-color: var(--white);
+  background-color: #ECFEFA;
+}
+
+.offer_slide-oquvchilar figcaption {
+  padding: 80px 7px 15px 7px;
+  background-color: #ECFEFA;
+}
+
+.offer_slide-oquvchilar img {
+  margin-bottom: -50px;
+  margin-top: 20px;
 }
 
 .offer_slide,
 .offer_slide-kurslar,
 .offer_slide-ustozlar,
-.offer_slide-videolar {
+.offer_slide-videolar,
+.offer_slide-oquvchilar {
   width: 100%;
 }
 
 .lines,
 .lines_2,
-.lines_3 {
+.lines_3,
+.lines_4,
+.lines_5 {
   width: 20px;
   height: 3px;
   cursor: pointer;
