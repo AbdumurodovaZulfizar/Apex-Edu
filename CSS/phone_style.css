@@ -38,7 +38,7 @@ body {
 }
 
 .contents img {
-  width: 304px;
+  width: 100%;
   margin: auto;
 }
 
@@ -54,4 +54,39 @@ figcaption p {
 
 .carusel-container {
   overflow: hidden;
+}
+
+.carusel-inner {
+  display: inline-flex;
+  transition: 0.5s ease;
+}
+
+.offer_slide {
+  width: 100%;
+}
+
+.controller {
+  width: 60px;
+  height: 1px;
+  background-color: var(--grey);
+  margin: 0 auto;
+  transform: translateY(-50%);
+}
+
+.line1, .line2, .line3 {
+  width: 20px;
+  height: 3px;
+  cursor: pointer;
+  transform: translateX(-50%);
+}
+
+#active {
+  width: 20px;
+  height: 4px;
+  border-radius: 5px;
+  position: absolute;
+  background-color: var(--grey);
+  transition: .5s ease;
+  transform: translateX(-50%);
+  top: 0;
 }
