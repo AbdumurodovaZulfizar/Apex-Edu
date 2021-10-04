@@ -37,7 +37,8 @@ body {
   font-weight: 700;
 }
 
-.contents img {
+.contents img,
+.kurslar-container img {
   width: 100%;
   margin: auto;
 }
@@ -52,24 +53,33 @@ figcaption p {
   font: 11px;
 }
 
-.carusel-container {
+.carusel-container,
+.carusel-container-kurslar {
   overflow: hidden;
 }
 
-.carusel-inner {
+.carusel-inner,
+.carusel-inner-kurslar {
   display: inline-flex;
   transition: 0.5s ease;
 }
 
-.offer_slide {
+.kurs {
+  margin: 0;
+}
+
+.offer_slide-kurslar figcaption {
+  padding: 15px 7px 0 7px;
+  background-color: var(--white);
+}
+
+.offer_slide,
+.offer_slide-kurslar {
   width: 100%;
 }
 
-.controller {
-  margin: auto;
-}
-
-.lines {
+.lines,
+.lines_2 {
   width: 20px;
   height: 3px;
   cursor: pointer;
