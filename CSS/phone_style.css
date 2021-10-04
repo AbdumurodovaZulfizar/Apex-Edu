@@ -38,7 +38,8 @@ body {
 }
 
 .contents img {
-  width: 100%;
+  width: 304px;
+  margin: auto;
 }
 
 figcaption h4 {
@@ -49,4 +50,8 @@ figcaption h4 {
 figcaption p {
   float: right;
   font: 11px;
+}
+
+.carusel-container {
+  overflow: hidden;
 }
