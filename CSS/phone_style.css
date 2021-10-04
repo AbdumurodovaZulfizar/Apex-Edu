@@ -66,27 +66,21 @@ figcaption p {
 }
 
 .controller {
-  width: 60px;
-  height: 1px;
-  background-color: var(--grey);
-  margin: 0 auto;
-  transform: translateY(-50%);
+  margin: auto;
 }
 
-.line1, .line2, .line3 {
+.lines {
   width: 20px;
   height: 3px;
   cursor: pointer;
   transform: translateX(-50%);
+  background-color: var(--grey);
+  display: inline-block;
+  border-radius: 5px;
 }
 
-#active {
-  width: 20px;
+.active {
   height: 4px;
-  border-radius: 5px;
-  position: absolute;
-  background-color: var(--grey);
-  transition: .5s ease;
-  transform: translateX(-50%);
-  top: 0;
+  width: 22px;
 }
+
