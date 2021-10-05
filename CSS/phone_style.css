@@ -12,9 +12,29 @@ header {
   z-index: 1;
 }
 
+header,
+main,
+footer {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+}
+
 .logo_phone {
   width: 50px;
   height: 50px;
+}
+
+.desk-logo {
+  display: none;
+}
+
+.desktop-links {
+  display: none;
 }
 
 body {
@@ -247,6 +267,10 @@ form input:focus {
 
 .open {
   padding-top: 17px;
+}
+
+.cover-img {
+  display: none;
 }
 
 .close {
