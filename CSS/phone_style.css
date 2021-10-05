@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+* {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 2%;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  background: #bee9ff;
+  z-index: 1;
+}
+
+.logo_phone {
+  width: 50px;
+  height: 50px;
+}
+
+body {
+  background-image: linear-gradient(124.06deg, #ecfefa 9.47%, #bee9ff 29.35%, #dbeaff 60.79%, #f3dbff 85.49%);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.navbar-wrapper {
+  z-index: auto;
+  height: 100vh;
+}
+
+.navbar ul {
+  padding: 0;
+}
+
+.navbar ul li {
+  list-style: none;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.header-text {
+  font-weight: 700;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.button {
+  background-color: var(--dark_blue);
+  border: 0;
+  color: var(--white);
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.modal img {
+  width: 100%;
+}
+
+.offer_slide-oquvchilar img {
+  margin-bottom: -50px;
+  margin-top: 20px;
+}
+
+.dars-rasmlari img,
+.offer_slide-mijozlar figcaption {
+  width: 100%;
+}
+
+.content-header {
+  line-height: 40px;
+  color: var(--dark_blue);
+  font-weight: 700;
+}
+
+.contents img,
+.kurslar-container img,
+.ustozlar-container img,
+.mijozlar-container figure img {
+  width: 100%;
+  margin: auto;
+}
+
+figcaption h4 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+figcaption p {
+  float: right;
+}
+
+.carusel-container,
+.carusel-container-kurslar,
+.carusel-container-ustozlar,
+.carusel-container-videolar,
+.carusel-container-oquvchilar,
+.carusel-container-mijozlar {
+  overflow: hidden;
+}
+
+.carusel-inner,
+.carusel-inner-kurslar,
+.carusel-inner-ustozlar,
+.carusel-inner-videolar,
+.carusel-inner-oquvchilar,
+.carusel-inner-mijozlar {
+  display: inline-flex;
+  transition: 0.5s ease;
+}
+
+.kurs {
+  margin: 0;
+}
+
+.offer_slide-ustozlar figcaption,
+.offer_slide-mijozlar figcaption {
+  padding: 15px 7px 10px 7px;
+  background-color: #ecfefa;
+}
+
+.offer_slide-kurslar figcaption {
+  padding: 15px 7px 0 7px;
+  background-color: #ecfefa;
+}
+
+.offer_slide-oquvchilar figcaption {
+  padding: 80px 7px 15px 7px;
+  background-color: #ecfefa;
+}
+
+.offer_slide,
+.offer_slide-kurslar,
+.offer_slide-ustozlar,
+.offer_slide-videolar,
+.offer_slide-oquvchilar,
+.offer_slide-mijozlar {
+  width: 100%;
+}
+
+.lines,
+.lines_2,
+.lines_3,
+.lines_4,
+.lines_5,
+.lines_6 {
+  width: 20px;
+  height: 3px;
+  cursor: pointer;
+  transform: translateX(-50%);
+  background-color: var(--grey);
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.active {
+  height: 4px;
+  width: 22px;
+}
+
+.offer_slide-videolar iframe {
+  width: 100%;
+}
+
+.aloqa-container iframe {
+  width: 100%;
+}
+
+.aloqa-container i {
+  color: var(--dark_blue);
+  font-size: 24px;
+}
+
+footer,
+.registr {
+  background: #bee9ff;
+}
+
+footer p,
+.aloqa-container p {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2%;
+  margin: 0;
+}
+
+footer h3 {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0;
+}
+
+header .logo-text {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.social {
+  font-size: 8px;
+}
+
+form input {
+  border-radius: 0;
+  border: 0;
+  font-size: 14px;
+  width: 100%;
+  padding: 5px;
+}
+
+form input:focus {
+  outline: 0;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 10px;
+}
+
+.close-bar {
+  width: 20px;
+  height: 3px;
+  background-color: black;
+  margin: 2px 0;
+}
+
+.open-bar-1,
+.open-bar-2 {
+  width: 20px;
+  height: 3px;
+  background-color: black;
+}
+
+.open-bar-1 {
+  transform: rotate(45deg);
+  margin-bottom: -3px;
+}
+
+.open-bar-2 {
+  transform: rotate(135deg);
+}
+
+.open {
+  padding-top: 17px;
+}
+
+.close {
+  padding-top: 13px;
+}
