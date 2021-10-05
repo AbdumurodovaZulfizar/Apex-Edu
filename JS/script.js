@@ -1,11 +1,22 @@
-const menu = document.getElementById('menu-toggler');
+const menu = document.getElementById('menu-container');
 const navbar = document.getElementById('navbar');
-const menu_container = document.getElementById('menu-container');
 
-menu_container.addEventListener('click', () => {
-  navbar.classList.toggle('d-none');
-});
-
+menu.addEventListener('click', (e) => {
+  if (menu.classList.contains('close')) {
+    menu.innerHTML = `<div class="open-bar-1"></div>
+    <div class="open-bar-2"></div>`;
+    menu.classList.toggle('close');
+    menu.classList.toggle('open');
+    navbar.classList.toggle('d-none');
+  } else if (menu.classList.contains('open')) {
+    menu.innerHTML = `<div class="close-bar"></div>
+    <div class="close-bar"></div>
+    <div class="close-bar"></div>`;
+    menu.classList.toggle('close');
+    menu.classList.toggle('open');
+    navbar.classList.toggle('d-none');
+  }
+})
 window.addEventListener('DOMContentLoaded', () => {
   const slides = document.querySelectorAll('.offer_slide');
   const slidesFile = document.querySelector('.carusel-inner');
@@ -121,6 +132,13 @@ document.addEventListener('click', (e) => {
     if (e.target.classList.contains('active')) return;
     setActiveButton(e.target, '.lines_6');
     slider_6.style.transform = 'translateX(-66.66%)';
+  } else if (e.target.classList.contains('ul-li')) {
+    menu.innerHTML = `<div class="close-bar"></div>
+    <div class="close-bar"></div>
+    <div class="close-bar"></div>`;
+    menu.classList.toggle('close');
+    menu.classList.toggle('open');
+    navbar.classList.toggle('d-none');
   }
 })
 

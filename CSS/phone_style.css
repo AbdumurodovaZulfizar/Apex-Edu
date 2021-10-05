@@ -6,6 +6,8 @@
 }
 header{
   width: 100%;
+  position: fixed;
+  background: #BEE9FF;
 }
 
 body {
@@ -13,6 +15,24 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   height: 100%;
+}
+
+.navbar-wrapper {
+  z-index: auto;
+  height: 100vh;
+}
+
+.navbar ul {
+  padding: 0;
+}
+
+.navbar ul li {
+  list-style: none;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
 }
 
 .header-text {
@@ -146,12 +166,78 @@ figcaption p {
   font-size: 24px;
 }
 
-.aloqa-container p {
+footer {
+  background: #BEE9FF;
+}
+
+.aloqa-container p,
+footer p {
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 2%;
+  margin: 0;
+}
+
+footer h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+}
+
+header .logo-text {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0;;
 }
 
 .social {
   font-size: 8px;
+}
+
+form input {
+  border-radius: 0;
+  border: 0;
+  font-size: 14px;
+  width: 100%;
+  padding: 5px;
+}
+
+form input:focus {
+  outline: 0;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 10px;
+}
+
+.close-bar {
+  width: 20px;
+  height: 3px;
+  background-color: black;
+  margin: 2px 0;
+}
+
+.open-bar-1,
+.open-bar-2 {
+  width: 20px;
+  height: 3px;
+  background-color: black;
+}
+
+.open-bar-1 {
+  transform: rotate(45deg);
+  margin-bottom: -3px;
+}
+
+.open-bar-2 {
+  transform: rotate(135deg);
+}
+
+.open {
+  padding-top: 17px;
+}
+
+.close {
+  padding-top: 13px;
 }
