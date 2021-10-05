@@ -1,0 +1,211 @@
+header {
+  background-color: transparent;
+  position: relative;
+  padding-top: 15px;
+}
+
+header,
+main,
+footer {
+  width: 100%;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.logo_phone {
+  display: none;
+}
+
+.logo-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.desk-logo {
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a{
+  text-decoration: none;
+  color: black;
+  padding: 14px 5px;
+  font-size: 11.8px;
+}
+
+nav a:last-child {
+  padding-right: 0;
+}
+
+.desktop-links {
+  float: right;
+  display: inline-flex;
+}
+
+.logo span,
+.footer_logo span {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  padding-top: 16px;
+}
+
+.brand {
+  padding-top: 80px;
+  padding-bottom: 30px;
+
+}
+
+.copyright {
+  margin-top: -30px;
+  font-size: 14px;
+}
+
+.cover-page {
+  display: grid;
+  display: -ms-grid;
+  grid-template-columns: 60% 40%;
+  -ms-grid-columns: 60% 40%;
+}
+
+.cover-page h1,
+.cover-page p {
+  text-align: left;
+}
+
+.cover-page button {
+  float: left;
+}
+
+.cover-page img {
+  width: 90%;
+  margin-top: -50px;
+}
+
+.cover-img {
+  display: inline-block;
+}
+
+.carusel-inner,
+.carusel-inner-kurslar,
+.carusel-inner-ustozlar,
+.dars-rasmlari,
+.carusel-inner-videolar,
+.carusel-inner-oquvchilar,
+.carusel-inner-mijozlar {
+  width: 100% !important;
+}
+
+.offer_slide:first-child,
+.offer_slide-kurslar:first-child,
+.offer_slide-ustozlar:first-child,
+.dars-rasmlari img:first-child,
+.dars-rasmlari img:nth-child(4),
+.offer_slide-videolar:first-child,
+.offer_slide-oquvchilar:first-child,
+.offer_slide-mijozlar:first-child {
+  padding-right: 10px;
+}
+
+.offer_slide:nth-child(2),
+.offer_slide-kurslar:nth-child(2),
+.offer_slide-ustozlar:nth-child(2),
+.dars-rasmlari img:nth-child(2),
+.dars-rasmlari img:nth-child(5),
+.offer_slide-videolar:nth-child(2),
+.offer_slide-oquvchilar:nth-child(2),
+.offer_slide-m.carusel-inner-mijozlar {
+  padding: 0 10px;
+}
+
+.offer_slide:last-child,
+.offer_slide-kurslar:last-child,
+.offer_slide-ustozlar:last-child,
+.dars-rasmlari img:nth-child(3),
+.dars-rasmlari img:last-child,
+.offer_slide-videolar:last-child,
+.offer_slide-oquvchilar:last-child,
+.offer_slide-mijozlar:last-child {
+  padding-left: 10px;
+}
+
+.offer_slide,
+.offer_slide-kurslar,
+.offer_slide-ustozlar,
+.offer_slide-videolar,
+.offer_slide-oquvchilar,
+.offer_slide-mijozlar {
+  width: 33.33%;
+}
+
+.dars-rasmlari img {
+  width: 32.8%;
+}
+
+.offer_slide img,
+.offer_slide-kurslar img,
+.offer_slide-ustozlar img,
+.offer_slide-videolar iframe {
+  height: 120px;
+}
+
+.offer_slide-kurslar p,
+.offer_slide-ustozlar p {
+  font-size: 14px;
+}
+
+.logo-text {
+  font-size: 20px;
+}
+
+#menu-container {
+  display: none;
+}
+
+.logo ul.desktop-links {
+  display: inline;
+}
+
+.contacts-container {
+  display: grid;
+  grid-template-columns: 30% 20% 25% 25%;
+}
+
+.contacts-container p {
+  font-size: 11px;
+}
+
+.social i{
+  font-size: 16px;
+}
+
+.footer-logo {
+  display: none;
+}
+
+footer form {
+  display: grid;
+  grid-template-columns: 30% 25% 25% 20%;
+  font-size: 12px;
+}
+
+footer form div.mb-3:first-child,
+footer form div.mb-3:nth-child(2),
+footer form div.mb-3:nth-child(3) {
+  padding-right: 10px;
+}
+
+footer .button {
+  height: 31px;
+}
+
+.footer_logo {
+  display: flex;
+  width: 30%;
+}

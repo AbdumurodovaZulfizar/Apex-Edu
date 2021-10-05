@@ -1,0 +1,28 @@
+header,
+main,
+.footer-div {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+nav a {
+  font-size: 15px;
+  padding-top: 30px;
+}
+
+.offer_slide img,
+.offer_slide-kurslar img,
+.offer_slide-ustozlar img,
+.offer_slide-videolar iframe {
+  height: 180px;
+}
+
+.desk-logo {
+  width: 100px;
+  height: 100px;
+}
+
+.logo span {
+  padding-top: 27px;
+}
