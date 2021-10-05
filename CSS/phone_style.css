@@ -276,3 +276,7 @@ form input:focus {
 .close {
   padding-top: 13px;
 }
+
+.footer_logo {
+  display: none;
+}
