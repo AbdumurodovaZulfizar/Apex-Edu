@@ -8,6 +8,12 @@ header{
   width: 100%;
   position: fixed;
   background: #BEE9FF;
+  z-index: 1;
+}
+
+.logo_phone {
+  width: 50px;
+  height: 50px;
 }
 
 body {
@@ -166,7 +172,8 @@ figcaption p {
   font-size: 24px;
 }
 
-footer {
+footer,
+.registr {
   background: #BEE9FF;
 }
 
@@ -179,7 +186,7 @@ footer p {
 }
 
 footer h3 {
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 700;
   margin: 0;
 }
@@ -240,4 +247,8 @@ form input:focus {
 
 .close {
   padding-top: 13px;
+}
+
+.modal img {
+  width: 100%;
 }

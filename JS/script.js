@@ -30,6 +30,12 @@ window.addEventListener('DOMContentLoaded', () => {
   const slidesFile_5 = document.querySelector('.carusel-inner-oquvchilar');
   const slides_6 = document.querySelectorAll('.offer_slide-mijozlar');
   const slidesFile_6 = document.querySelector('.carusel-inner-mijozlar');
+  const line1 = document.getElementById('line1');
+  const line4 = document.getElementById('line4');
+  const line7 = document.getElementById('line7');
+  const line10 = document.getElementById('line10');
+  const line13 = document.getElementById('line13');
+  const line16 = document.getElementById('line16');
 
   slidesFile.style.width = slides.length * 100 + '%';
   slidesFile_2.style.width = slides_2.length * 100 + '%';
@@ -37,6 +43,12 @@ window.addEventListener('DOMContentLoaded', () => {
   slidesFile_4.style.width = slides_4.length * 100 + '%';
   slidesFile_5.style.width = slides_5.length * 100 + '%';
   slidesFile_6.style.width = slides_6.length * 100 + '%';
+  setActiveButton(line1, '.lines');
+  setActiveButton(line4, '.lines_2');
+  setActiveButton(line7, '.lines_3');
+  setActiveButton(line10, '.lines_4');
+  setActiveButton(line13, '.lines_5');
+  setActiveButton(line16, '.lines_6');
 })
 
 const setActiveButton = (button, str) => {
