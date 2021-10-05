@@ -4,10 +4,11 @@
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 2%;
 }
-header{
+
+header {
   width: 100%;
   position: fixed;
-  background: #BEE9FF;
+  background: #bee9ff;
   z-index: 1;
 }
 
@@ -17,7 +18,7 @@ header{
 }
 
 body {
-  background-image: linear-gradient(124.06deg, #ECFEFA 9.47%, #BEE9FF 29.35%, #DBEAFF 60.79%, #F3DBFF 85.49%);
+  background-image: linear-gradient(124.06deg, #ecfefa 9.47%, #bee9ff 29.35%, #dbeaff 60.79%, #f3dbff 85.49%);
   background-position: center;
   background-repeat: no-repeat;
   height: 100%;
@@ -57,6 +58,20 @@ body {
   font-size: 14px;
 }
 
+.modal img {
+  width: 100%;
+}
+
+.offer_slide-oquvchilar img {
+  margin-bottom: -50px;
+  margin-top: 20px;
+}
+
+.dars-rasmlari img,
+.offer_slide-mijozlar figcaption {
+  width: 100%;
+}
+
 .content-header {
   line-height: 40px;
   color: var(--dark_blue);
@@ -78,7 +93,6 @@ figcaption h4 {
 
 figcaption p {
   float: right;
-  font: 11px;
 }
 
 .carusel-container,
@@ -104,30 +118,20 @@ figcaption p {
   margin: 0;
 }
 
-.dars-rasmlari img,
-.offer_slide-mijozlar figcaption {
-  width: 100%;
-}
-
 .offer_slide-ustozlar figcaption,
 .offer_slide-mijozlar figcaption {
   padding: 15px 7px 10px 7px;
-  background-color: #ECFEFA;
+  background-color: #ecfefa;
 }
 
 .offer_slide-kurslar figcaption {
   padding: 15px 7px 0 7px;
-  background-color: #ECFEFA;
+  background-color: #ecfefa;
 }
 
 .offer_slide-oquvchilar figcaption {
   padding: 80px 7px 15px 7px;
-  background-color: #ECFEFA;
-}
-
-.offer_slide-oquvchilar img {
-  margin-bottom: -50px;
-  margin-top: 20px;
+  background-color: #ecfefa;
 }
 
 .offer_slide,
@@ -159,11 +163,11 @@ figcaption p {
   width: 22px;
 }
 
-.offer_slide-videolar iframe{
+.offer_slide-videolar iframe {
   width: 100%;
 }
 
-.aloqa-container iframe{
+.aloqa-container iframe {
   width: 100%;
 }
 
@@ -174,11 +178,12 @@ figcaption p {
 
 footer,
 .registr {
-  background: #BEE9FF;
+  background: #bee9ff;
 }
 
-.aloqa-container p,
-footer p {
+
+footer p,
+.aloqa-container p {
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 2%;
@@ -194,7 +199,7 @@ footer h3 {
 header .logo-text {
   font-size: 14px;
   font-weight: 700;
-  margin: 0;;
+  margin: 0;
 }
 
 .social {
@@ -247,8 +252,4 @@ form input:focus {
 
 .close {
   padding-top: 13px;
-}
-
-.modal img {
-  width: 100%;
 }
