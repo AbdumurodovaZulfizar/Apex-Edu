@@ -11,11 +11,29 @@ nav a {
   padding-top: 30px;
 }
 
+.cover-page button {
+  font-size: 18px;
+  padding: 15px 30px;
+}
+
+.cover-page .header-text {
+  font-size: 40px;
+}
+
 .offer_slide img,
 .offer_slide-kurslar img,
 .offer_slide-ustozlar img,
-.offer_slide-videolar iframe {
+.offer_slide-videolar iframe,
+.mijoz-img {
   height: 180px;
+}
+
+.logo-wrapper .logo-text {
+  margin-top: 10px;
+}
+
+.cover-page p {
+  font-size: 24px;
 }
 
 .desk-logo {

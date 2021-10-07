@@ -5,6 +5,11 @@
   letter-spacing: 2%;
 }
 
+.cover-page button {
+  text-transform: uppercase;
+  padding: 10px 20px;
+}
+
 header {
   width: 100%;
   position: fixed;

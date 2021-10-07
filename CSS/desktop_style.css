@@ -45,6 +45,7 @@ nav a:last-child {
 .desktop-links {
   float: right;
   display: inline-flex;
+  margin-top: 10px;
 }
 
 .logo span,
@@ -119,8 +120,7 @@ nav a:last-child {
 .dars-rasmlari img:nth-child(2),
 .dars-rasmlari img:nth-child(5),
 .offer_slide-videolar:nth-child(2),
-.offer_slide-oquvchilar:nth-child(2),
-.offer_slide-m.carusel-inner-mijozlar {
+.offer_slide-oquvchilar:nth-child(2) {
   padding: 0 10px;
 }
 
@@ -151,7 +151,8 @@ nav a:last-child {
 .offer_slide img,
 .offer_slide-kurslar img,
 .offer_slide-ustozlar img,
-.offer_slide-videolar iframe {
+.offer_slide-videolar iframe,
+.mijoz-img {
   height: 120px;
 }
 
