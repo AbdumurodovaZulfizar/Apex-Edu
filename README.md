@@ -29,7 +29,7 @@ cd Apex-Edu
 
 ### Live Version
 
-[Bookstore CMS](https://festive-johnson-68415e.netlify.app/)
+[Apex of Edu](https://festive-johnson-68415e.netlify.app/)
 
 ## Authors
 
